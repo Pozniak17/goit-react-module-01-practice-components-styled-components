@@ -1,4 +1,6 @@
-import { RecipeList } from './RecipeList';
+import { ThemeProvider } from 'styled-components';
+import { RecipeList } from './RecipeList/RecipeList';
+import theme from './utils/theme';
 
 // JSON
 import recipes from '../json/recipes.json';
@@ -6,7 +8,9 @@ import recipes from '../json/recipes.json';
 export const App = () => {
   return (
     <>
-      <RecipeList recipes={recipes} />
+      <ThemeProvider theme={theme}>
+        <RecipeList recipes={recipes} />
+      </ThemeProvider>
     </>
   );
 };
