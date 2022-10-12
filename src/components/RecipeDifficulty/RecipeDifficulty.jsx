@@ -15,4 +15,4 @@ export const RecipeDifficulty = ({ difficulty }) => {
 
 //* в середині компонента Badge нам треба виділити вибраний колір, виходячи з JSON, в середину Badge кидаємо prop active
 
-1.04.00
+// 1.04.00
