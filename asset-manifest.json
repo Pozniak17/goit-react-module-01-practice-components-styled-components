@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/goit-react-module-01-practice-components-styled-components/static/css/main.dcdbb674.css",
-    "main.js": "/goit-react-module-01-practice-components-styled-components/static/js/main.92e55f57.js",
+    "main.css": "/goit-react-module-01-practice-components-styled-components/static/css/main.152533ba.css",
+    "main.js": "/goit-react-module-01-practice-components-styled-components/static/js/main.30516784.js",
     "index.html": "/goit-react-module-01-practice-components-styled-components/index.html",
-    "main.dcdbb674.css.map": "/goit-react-module-01-practice-components-styled-components/static/css/main.dcdbb674.css.map",
-    "main.92e55f57.js.map": "/goit-react-module-01-practice-components-styled-components/static/js/main.92e55f57.js.map"
+    "main.152533ba.css.map": "/goit-react-module-01-practice-components-styled-components/static/css/main.152533ba.css.map",
+    "main.30516784.js.map": "/goit-react-module-01-practice-components-styled-components/static/js/main.30516784.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcdbb674.css",
-    "static/js/main.92e55f57.js"
+    "static/css/main.152533ba.css",
+    "static/js/main.30516784.js"
   ]
 }
