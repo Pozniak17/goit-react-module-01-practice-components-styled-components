@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 // компонент одної картки
 import { Recipe } from '../Recipe/Recipe';
 import { ListItem } from './RecipeList.styled';
@@ -20,3 +22,10 @@ export const RecipeList = ({ recipes }) => (
  * мепається і заповнює даними компонент Recipe.
  *
  * App <= RecipList <= Recipe*/
+
+//* Описуємо наш JSON recipes як масив в якому об'єкт і значення id рядок.
+RecipeList.propTypes = {
+  recipes: PropTypes.arrayOf(
+    PropTypes.shape({ id: PropTypes.number.isRequired })
+  ),
+};

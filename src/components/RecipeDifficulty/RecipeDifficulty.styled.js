@@ -5,12 +5,14 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h3`
-  margin-bottom: ${props => props.theme.space[3]};
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: ${props => props.theme.space[2]}px;
 `;
 
 export const BadgeList = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 8px;
 `;
 
