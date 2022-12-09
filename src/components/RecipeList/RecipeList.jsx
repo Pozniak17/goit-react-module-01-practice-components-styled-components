@@ -2,16 +2,16 @@ import PropTypes from 'prop-types';
 
 // компонент одної картки
 import { Recipe } from '../Recipe/Recipe';
-import { ListItem } from './RecipeList.styled';
+import { ListItem, List } from './RecipeList.styled';
 
 export const RecipeList = ({ recipes }) => (
-  <ul>
+  <List>
     {recipes.map(recipe => (
       <ListItem key={recipe.id}>
         <Recipe recipe={recipe} />
       </ListItem>
     ))}
-  </ul>
+  </List>
 );
 
 /*
